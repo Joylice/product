@@ -5,6 +5,7 @@ import com.business.product.enums.ProductStatusEnum;
 import com.business.product.repository.ProductInfoRepository;
 import com.business.product.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -18,4 +19,11 @@ public class ProductServiceImpl implements ProductService {
     public List<ProductInfo> findUpAll() {
         return productInfoRepository.findByProductStatus(ProductStatusEnum.UP.getCode());
     }
+
+    @Override
+    public List<ProductInfo> findByProductIdIn(List<String> productIds) {
+        return productInfoRepository.findByProductIdIn(productIds);
+    }
+
+
 }
