@@ -1,5 +1,6 @@
 package com.business.product.controller;
 
+import com.business.product.DTO.CartDTO;
 import com.business.product.VO.ProductInfoVO;
 import com.business.product.VO.ProductVO;
 import com.business.product.VO.ResultVO;
@@ -10,10 +11,7 @@ import com.business.product.service.impl.ProductServiceImpl;
 import jdk.nashorn.internal.objects.annotations.Getter;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,8 +58,19 @@ public class ProductController {
         return resultVO;
     }
 
-    @GetMapping("/product/listForOrder")
+    /**
+     * 获取商品信息
+     *
+     * @param productIds
+     * @return
+     */
+    @PostMapping("/product/listForOrder")
     public List<ProductInfo> getProductInfoList(@RequestBody List<String> productIds) {
         return productService.findByProductIdIn(productIds);
+    }
+
+    @PostMapping("/decreaseStock")
+    public void decreaseStock(@RequestBody List<CartDTO> cartDTOS) {
+        productService.decreaseStock(cartDTOS);
     }
 }
