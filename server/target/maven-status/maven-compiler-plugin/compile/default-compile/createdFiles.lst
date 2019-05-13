@@ -1,0 +1,17 @@
+com\business\product\enums\ProductStatusEnum.class
+com\business\product\VO\ResultVO.class
+com\business\product\service\CategoryService.class
+com\business\product\controller\ProductController.class
+com\business\product\service\impl\CategoryServiceImpl.class
+com\business\product\exception\ProductException.class
+com\business\product\repository\ProductInfoRepository.class
+com\business\product\service\ProductService.class
+com\business\product\enums\ResultEnums.class
+com\business\product\ProductApplication.class
+com\business\product\controller\ServerController.class
+com\business\product\repository\ProductCategoryRepository.class
+com\business\product\dataobject\ProductInfo.class
+com\business\product\VO\ProductInfoVO.class
+com\business\product\dataobject\ProductCategory.class
+com\business\product\service\impl\ProductServiceImpl.class
+com\business\product\VO\ProductVO.class

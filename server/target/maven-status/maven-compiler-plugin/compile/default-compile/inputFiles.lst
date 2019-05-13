@@ -1,0 +1,17 @@
+E:\code\springcloud\product\server\src\main\java\com\business\product\VO\ProductVO.java
+E:\code\springcloud\product\server\src\main\java\com\business\product\dataobject\ProductCategory.java
+E:\code\springcloud\product\server\src\main\java\com\business\product\ProductApplication.java
+E:\code\springcloud\product\server\src\main\java\com\business\product\repository\ProductCategoryRepository.java
+E:\code\springcloud\product\server\src\main\java\com\business\product\exception\ProductException.java
+E:\code\springcloud\product\server\src\main\java\com\business\product\VO\ProductInfoVO.java
+E:\code\springcloud\product\server\src\main\java\com\business\product\service\ProductService.java
+E:\code\springcloud\product\server\src\main\java\com\business\product\repository\ProductInfoRepository.java
+E:\code\springcloud\product\server\src\main\java\com\business\product\enums\ProductStatusEnum.java
+E:\code\springcloud\product\server\src\main\java\com\business\product\service\impl\ProductServiceImpl.java
+E:\code\springcloud\product\server\src\main\java\com\business\product\controller\ServerController.java
+E:\code\springcloud\product\server\src\main\java\com\business\product\VO\ResultVO.java
+E:\code\springcloud\product\server\src\main\java\com\business\product\dataobject\ProductInfo.java
+E:\code\springcloud\product\server\src\main\java\com\business\product\enums\ResultEnums.java
+E:\code\springcloud\product\server\src\main\java\com\business\product\service\CategoryService.java
+E:\code\springcloud\product\server\src\main\java\com\business\product\controller\ProductController.java
+E:\code\springcloud\product\server\src\main\java\com\business\product\service\impl\CategoryServiceImpl.java

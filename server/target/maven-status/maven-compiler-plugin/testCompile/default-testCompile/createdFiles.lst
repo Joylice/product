@@ -1,0 +1,4 @@
+com\business\product\repository\ProductCategoryRepositoryTest.class
+com\business\product\ProductApplicationTests.class
+com\business\product\service\impl\CategoryServiceImplTest.class
+com\business\product\repository\ProductInfoRepositoryTest.class
